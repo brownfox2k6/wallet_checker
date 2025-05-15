@@ -291,3 +291,5 @@ def get_beacon_chain_withdrawals(
         offset=offset,
         sort=sort,
     )
+    data = get_data_from_url(url)
+    return data
